@@ -1,0 +1,48 @@
+{
+    "name": "MacOS | Introduction to UAV Assignment 2 Q2",
+    "privileged": true,
+    "remoteUser": "rosusr",
+    "image": "ghcr.io/srindot/rosgzpx4",
+    "workspaceFolder": "/home/rosusr/workspace",
+    "workspaceMount": "type=bind,source=${localWorkspaceFolder},target=/home/rosusr/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools",
+                "ms-python.python",
+                "esbenp.prettier-vscode",
+                "eamodio.gitlens",
+                "ms-iot.vscode-ros",
+                "ms-toolsai.jupyter",
+                "mechatroner.rainbow-csv",
+                "ms-azuretools.vscode-docker",
+                "twxs.cmake",
+                "ms-vscode.cmake-tools",
+                "redhat.vscode-yaml",
+                "smilerobotics.urdf",
+                "betwo.b2-catkin-tools",
+                "zachflower.uncrustify",
+                "ms-python.vscode-pylance"
+            ]
+        }
+    },
+    "containerEnv": {
+        "DISPLAY": "host.docker.internal:0", 
+        "LIBGL_ALWAYS_SOFTWARE": "1",
+        "QT_X11_NO_MITSHM": "1"
+    },
+    "runArgs": [
+        "--privileged",
+        "--net=host", 
+        "-e", "DISPLAY=host.docker.internal:0"
+    ],
+    "postCreateCommand": "echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc",
+    "features": {},
+    "mounts": [
+        {
+            "type": "bind",
+            "source": "${localWorkspaceFolder}/.vscode",
+            "target": "${containerWorkspaceFolder}/.vscode"
+        }
+    ]
+}
