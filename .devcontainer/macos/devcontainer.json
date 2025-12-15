@@ -2,7 +2,7 @@
     "name": "MacOS | Waypoint Navigation",
     "privileged": true,
     "remoteUser": "rosusr",
-    "image": "ghcr.io/srindot/rosgzpx4",
+    "image": "ghcr.io/srindot/waypointnavigation:latest",
     "workspaceFolder": "/home/rosusr/workspace",
     "workspaceMount": "type=bind,source=${localWorkspaceFolder},target=/home/rosusr/workspace",
     "customizations": {
