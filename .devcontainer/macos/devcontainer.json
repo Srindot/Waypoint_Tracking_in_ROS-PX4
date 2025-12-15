@@ -1,5 +1,5 @@
 {
-    "name": "MacOS | Waypoint Tracking",
+    "name": "MacOS | Waypoint Navigation",
     "privileged": true,
     "remoteUser": "rosusr",
     "image": "ghcr.io/srindot/rosgzpx4",

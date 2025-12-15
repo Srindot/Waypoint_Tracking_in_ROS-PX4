@@ -1,6 +1,6 @@
-# Waypoint Tracking of Quadcopter in PX4-ROS
+# Waypoint Navigation of Quadcopter in PX4-ROS
 
-This repository provides a streamlined platform to perform waypoint tracking in quadcopter in ROS2, Gazebo and PX4.
+This repository provides a streamlined devcontainer to perform waypoint nagivation of quadcopters in ROS2, Gazebo and PX4.
 
 ### Software Stack
 
@@ -15,11 +15,11 @@ This repository provides a streamlined platform to perform waypoint tracking in 
 
 ![Alt text](images/sim_results/Gazebo.png "Gazebo-Quadcopter")
 
-## **Installation Guide**
+## **Setup**
 
 ### **1. Clone the Repository**
 
-First, clone the project using Git in your linux system(Ubuntu, Arch and etc):
+First, clone the project:
 
 
 ```bash
@@ -222,7 +222,7 @@ docker rm -f myros
 
 ### To set Quadcopter Waypoints
 
-To set the waypoint for the quadcopter to track, navigate to [here](offboard_control.py) and set the waypoints in the list.
+To set the waypoint for the quadcopter to navigate, go to [here](offboard_control.py) and set the waypoints in the list.
 
 ## **Need Help? Raise an Issue!**
 

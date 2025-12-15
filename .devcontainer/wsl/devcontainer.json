@@ -1,5 +1,5 @@
 {
-    "name": "WSL | Waypoint Tracking",
+    "name": "WSL | Waypoint Navigation",
     "privileged": true,
     "remoteUser": "rosusr",
     "image": "ghcr.io/srindot/rosgzpx4",

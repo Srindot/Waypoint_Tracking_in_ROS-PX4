@@ -1,5 +1,5 @@
 {
-    "name": "Linux | Waypoint Tracking",
+    "name": "Linux | Waypoint Navigation",
     "privileged": true,
     "remoteUser": "rosusr",
     "image":"ghcr.io/srindot/rosgzpx4",
