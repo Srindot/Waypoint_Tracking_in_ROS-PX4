@@ -1,5 +1,5 @@
 # Pull the rosgzpx4 image
-FROM rosgzpx4:latest
+FROM ghcr.io/srindot/rosgzpx4:latest
 
 # Grant ownership of the home directory to rosusr
 USER root
